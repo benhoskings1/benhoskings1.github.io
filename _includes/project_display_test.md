@@ -86,7 +86,7 @@ dates: "2023"
       <div class="column" style="float: left; width: 30%">
         {% if post.cover_image %}
           <div>
-            <img src="/images/NoseTipDetection.png" alt="emotion-recognition-abstract" style="height: auto; max-height: 300px; display: block; margin-left: auto; margin-right: auto;"/>
+            <img src="/assets/images/NoseTipDetection.png" alt="emotion-recognition-abstract" style="height: auto; max-height: 300px; display: block; margin-left: auto; margin-right: auto;"/>
           </div>
         {% endif %}
       </div>
