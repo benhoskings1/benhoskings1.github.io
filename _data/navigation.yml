@@ -7,8 +7,11 @@ main:
     url: /hobby_projects/  
 
   - title: "Skills & Experience"
-    url: /skills_experience/  
-    
+    url: /skills_experience/
+
+  - title: "Blog"
+    url: /blog/
+
   - title: "CV"
     url: /cv/
 
