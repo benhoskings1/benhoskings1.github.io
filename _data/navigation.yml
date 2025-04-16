@@ -9,9 +9,6 @@ main:
   - title: "Skills & Experience"
     url: /skills_experience/
 
-  - title: "Blog"
-    url: /blog/
-
   - title: "CV"
     url: /cv/
 
