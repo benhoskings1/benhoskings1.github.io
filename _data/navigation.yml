@@ -1,10 +1,10 @@
 # main links links
 main:
+  - title: "Software Projects"
+    url: /hobby_projects/
+
   - title: "Academic Projects"
     url: /academic_projects/
-
-  - title: "Hobby Projects"
-    url: /hobby_projects/  
 
   - title: "Skills & Experience"
     url: /skills_experience/
@@ -14,6 +14,9 @@ main:
 
   - title: "Recommendations"
     url: /recommendations/
+
+  - title: "Blog"
+    url: /blog/
 
   - title: "Godiva App"
     url: /godiva-analytics-solution/
