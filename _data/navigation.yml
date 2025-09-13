@@ -1,7 +1,7 @@
 # main links links
 main:
   - title: "Software Projects"
-    url: /hobby_projects/
+    url: /software_projects/
 
   - title: "Academic Projects"
     url: /academic_projects/
