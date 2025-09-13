@@ -12,11 +12,11 @@ main:
   - title: "CV"
     url: /cv/
 
-  - title: "Recommendations"
-    url: /recommendations/
+#  - title: "Recommendations"
+#    url: /recommendations/
 
   - title: "Blog"
     url: /blog/
 
-  - title: "Godiva App"
-    url: /godiva-analytics-solution/
+#  - title: "Godiva App"
+#    url: /godiva-analytics-solution/
