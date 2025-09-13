@@ -8,7 +8,7 @@
 # Site Settings
 
 locale                   : "en-GB"
-title                    : "Ben Hoskings / Homepage"
+title                    : "About Me"
 title_separator          : "-"
 name                     : &name "Ben Hoskings Website"
 description              : &description "Ben Hoskings personal website"
