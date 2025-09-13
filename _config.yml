@@ -179,7 +179,7 @@ collections:
   academic_projects:
     output: true
     permalink: /:collection/:path/
-  hobby_projects:
+  software_projects:
     output: true
     permalink: /:collection/:path/
 
@@ -213,7 +213,7 @@ defaults:
  # _software_projects
   - scope:
       path: ""
-      type: hobby_projects
+      type: software_projects
     values:
       layout: single
       author_profile: true

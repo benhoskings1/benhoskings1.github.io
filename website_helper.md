@@ -1,2 +1,2 @@
 ## configuring a regular project
-the templae is stored in 
+the template is stored in `includes/project_overview`
