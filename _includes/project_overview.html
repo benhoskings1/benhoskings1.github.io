@@ -67,6 +67,30 @@
   background-color: #FFFFFF;
   padding: 10px 0px;
 }
+
+.language-list {
+  list-style: none;
+  padding: 0;
+}
+
+.language-list li {
+  display: inline-flex;
+  align-items: center;
+  margin-right: 15px;
+}
+
+.language-color {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 6px;
+}
+
+.language-python   { background-color: #3572A5; } /* GitHub's Python color */
+.language-html     { background-color: #e34c26; }
+.language-css      { background-color: #563d7c; }
+.language-javascript { background-color: #f1e05a; }
 </style>
 
 <body>
@@ -78,7 +102,13 @@
     {% if post.languages %}
     <div class="column" style="width: 50%; font-style: italic;font-weight: normal;
                                display: flex; justify-content: center; align-items: center;"> 
-      {{post.languages}}
+      <ul class="language-list">
+        {% for lang in post.languages %}
+          <li>
+            <span class="language-color language-{{ lang | downcase }}"></span>{{ lang }}
+          </li>
+        {% endfor %}
+      </ul>
     </div>
     {% endif %}
     {% if post.dates %}
