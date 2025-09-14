@@ -4,7 +4,7 @@ collection: academic_projects
 permalink: /academic_projects/wordle_solver
 author_profile: true
 overview: "This wordle solver is the superpower you need to get that all important advantage over your friends!"
-languages: Matlab
+languages: MATLAB
 dates: 2022
 ---
 
